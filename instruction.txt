@@ -33,6 +33,7 @@ pip install pymorphy2
 pip install -U pymorphy2-dicts-ru
 pip install nltk
 pip install requests
+pip install flask
 
 which python - эта команда распечатает путь к вашему питону. Например, /home/ВАШ_ЮЗЕРНЕЙМ/.virtualenvs/myenv/bin/python. Из этого пути нужно убрать /bin/python, скопировать полученное, вернуться во вкладку Веб (Web) и вставить наш путь в секции Virtualenv. Нужно вставить что-то такое - /home/ВАШ_ЮЗЕРНЕЙМ/.virtualenvs/myenv
 

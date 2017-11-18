@@ -33,16 +33,17 @@ def get_theme(text):
     theme = analize(words_no)
     return theme
 
-theme = get_theme(text)
-#print(theme)
+# if __name__ == '__main__':
+#     theme = get_theme(text)
+#     #print(theme)
 
-ids = ','.join([str(i) for i in range(1, 500)])
-groups = get_groups_descriptions(ids)
-for name, desc in groups.items():
-    theme = get_theme(desc)
-    if theme[1] > 3:
-        if theme[0] != 'br':
-            print(name, '---------->', theme)
+#     ids = ','.join([str(i) for i in range(1, 5)])
+#     groups = get_groups_descriptions(ids)
+#     for name, desc in groups.items():
+#         theme = get_theme(desc)
+#         if theme[1] > 3:
+#             if theme[0] != 'br':
+#                 print(name, '---------->', theme)
 
 
 #1. большой текст из файла
